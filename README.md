@@ -6,3 +6,6 @@
 
 ## Area plot
 ![](images/areaplot.png)
+
+## Histogram
+![](images/histogram.png)
