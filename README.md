@@ -1,5 +1,8 @@
 # matplotlib-plots-coursera
 
-## line plot
+## Line plot
 
 ![](images/Haiti_Canada_immi.jpg)
+
+## Area plot
+![](images/areaplot.png)
