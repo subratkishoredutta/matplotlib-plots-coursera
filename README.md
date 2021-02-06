@@ -9,3 +9,5 @@
 
 ## Histogram
 ![](images/histogram.png)
+## Bar graph
+![](images/barplot.png)
