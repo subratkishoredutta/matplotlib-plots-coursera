@@ -42,3 +42,12 @@ using pywaffle library we did the same representation and it came out nicely
 
 ## Word Cloud (wordcloudtest.py) (https://github.com/amueller/word_cloud)
 ![](images/wordcloud.png)
+### wordcloud with mask
+
+we have our mask
+
+![](images/alice_mask.png)
+
+fitting this to our wordcloud we have
+
+![](images/wordcloudmask.png)
