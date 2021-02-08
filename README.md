@@ -16,3 +16,6 @@
 
 ## Box Plot
 ![](images/box.png)
+
+## scatter plot
+![](scatter.png)
