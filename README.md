@@ -40,9 +40,12 @@ hoewever i ran into some issues aligning the color of the plot with the legend
 using pywaffle library we did the same representation and it came out nicely
 ![](images/test.png)
 
-## Word Cloud (wordcloudtest.py) (https://github.com/amueller/word_cloud)
+## Word Cloud  (https://github.com/amueller/word_cloud)
+
+### wordcloud (wordcloudtest.py)
+
 ![](images/wordcloud.png)
-### wordcloud with mask
+### wordcloud with mask (wordcloudmask.py)
 
 we have our mask
 
