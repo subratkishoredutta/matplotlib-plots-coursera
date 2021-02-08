@@ -13,3 +13,6 @@
 ![](images/barplot.png)
 ## Pie Chart
 ![](images/piechart.png)
+
+## Box Plot
+![](images/box.png)
