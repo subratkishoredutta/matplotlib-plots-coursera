@@ -4,18 +4,33 @@
 
 ![](images/Haiti_Canada_immi.jpg)
 
-## Area Plot
+## Area Plot(areaplot.py)
 ![](images/areaplot.png)
 
-## Histogram
+## Histogram(histogram.py)
 ![](images/histogram.png)
-## Bar graph
+## Bar graph(bargraph.py)
 ![](images/barplot.png)
-## Pie Chart
+## Pie Chart(pie.py)
 ![](images/piechart.png)
 
-## Box Plot
+## Box Plot(box.py)
 ![](images/box.png)
 
-## scatter plot
-![](scatter.png)
+## scatter plot(scatter.py)
+![](images/scatter.png)
+
+## waffle plot
+### creating a waffle plot  (code from scratch(waffle.py))
+
+we have the plot with the colorbar
+
+![](images/waffle.png)
+
+without the colorbar
+
+![](images/waffle1.png)
+
+hoewever i ran into some issues aligning the color of the plot with the legend 
+
+![](images/waffle2.png)
