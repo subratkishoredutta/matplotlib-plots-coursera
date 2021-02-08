@@ -54,3 +54,7 @@ we have our mask
 fitting this to our wordcloud we have
 
 ![](images/wordcloudmask.png)
+
+###  wordcloud of the immigration to canada dataset (canadawordcloud.py)
+
+![](images/wordcloudcanada.png)
