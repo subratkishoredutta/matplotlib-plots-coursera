@@ -33,7 +33,12 @@ without the colorbar
 
 hoewever i ran into some issues aligning the color of the plot with the legend 
 
+
+
 ![](images/waffle2.png)
 ### Using PyWaffle(pywaffletest.py) (https://github.com/gyli/PyWaffle)
 using pywaffle library we did the same representation and it came out nicely
 ![](images/test.png)
+
+## Word Cloud (wordcloudtest.py) (https://github.com/amueller/word_cloud)
+![](images/wordcloud.png)
