@@ -1,6 +1,6 @@
 # matplotlib-plots-coursera
 
-## Line Plot
+## Line Plot(line_plot.py)
 
 ![](images/Haiti_Canada_immi.jpg)
 
