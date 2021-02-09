@@ -58,3 +58,8 @@ fitting this to our wordcloud we have
 ###  wordcloud of the immigration to canada dataset (canadawordcloud.py)
 
 ![](images/wordcloudcanada.png)
+
+## regression plot (regplot.py)
+
+![](images/regplot.png)
+![](images/regplot1.png)
