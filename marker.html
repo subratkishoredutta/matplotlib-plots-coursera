@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_891455c788234684a1622e8d62eb6a63 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_891455c788234684a1622e8d62eb6a63" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_891455c788234684a1622e8d62eb6a63 = L.map(
+                                  'map_891455c788234684a1622e8d62eb6a63',
+                                  {center: [20.5937,78.9629],
+                                  zoom: 5,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_f4ab280a279948a7bb6cd35749d29dae = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_891455c788234684a1622e8d62eb6a63);
+        
+    
+            var feature_group_81357836c89c44739802d9d4d987fea5 = L.featureGroup(
+                ).addTo(map_891455c788234684a1622e8d62eb6a63);
+        
+    
+            var circle_marker_1ff2981900144784b05457f3e01aa20f = L.circleMarker(
+                [26.2006,92.9376],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(feature_group_81357836c89c44739802d9d4d987fea5);
+            
+    
+
+            var marker_858abccb6e044849a910ad43d0f0271a = L.marker(
+                [26.2006,92.9376],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_891455c788234684a1622e8d62eb6a63);
+            
+    
+            var popup_6c084b366245410eaaf5ed98bbd4b3de = L.popup({maxWidth: '300'});
+
+            
+                var html_27632ce2fb234a3a8a2c6de4e1b6e39d = $('<div id="html_27632ce2fb234a3a8a2c6de4e1b6e39d" style="width: 100.0%; height: 100.0%;">Assam</div>')[0];
+                popup_6c084b366245410eaaf5ed98bbd4b3de.setContent(html_27632ce2fb234a3a8a2c6de4e1b6e39d);
+            
+
+            marker_858abccb6e044849a910ad43d0f0271a.bindPopup(popup_6c084b366245410eaaf5ed98bbd4b3de);
+
+            
+        
+</script>
