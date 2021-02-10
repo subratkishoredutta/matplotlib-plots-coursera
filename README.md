@@ -101,7 +101,7 @@ India map with a marker at my hometown Assam
 
 ## choropleth (choropleth.py)
 
-![](choro.png)
+![](images/choro.png)
 
 
 
