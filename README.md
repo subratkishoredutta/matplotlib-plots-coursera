@@ -20,6 +20,10 @@
 
 ![](images/piechart.png)
 
+upgraded one 
+
+![](images/piechartnew.png)
+
 ## Box Plot(box.py)
 
 ![](images/box.png)
