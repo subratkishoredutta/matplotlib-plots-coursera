@@ -18,7 +18,7 @@ for i in range(1980,2014):
     newdata=newdata.append({'year':i,'total':data[i].sum()},ignore_index=True)
 standard = (newdata['total']-newdata['total'].min())/(newdata['total'].max()-newdata['total'].min())
 
-plt.scatter(newdata['year'],newdata['total'],alpha=0.5,color='cyan',s=list(standard*800+10))
+plt.scatter(newdata['year'],newdata['total'],alpha=0.5,color='cyan',s=5)
 plt.title('total number of immigration to Canada from 1980 to 2013')
 plt.xlabel('year')
 plt.ylabel('immigrants')
