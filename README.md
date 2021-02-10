@@ -98,3 +98,11 @@ India map with 'Stamen terrain' layout
 India map with a marker at my hometown Assam
 
 ![](images/marker.png)
+
+## choropleth (choropleth.py)
+
+![](choro.png)
+
+
+
+
