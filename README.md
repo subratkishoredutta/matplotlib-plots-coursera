@@ -34,9 +34,14 @@ upgraded one
 
 ![](images/boxnew.png)
 
-## scatter plot(scatter.py)
+## Scatter plot(scatter.py)
 
 ![](images/scatter.png)
+
+## Bubble plot(bubble.py)
+
+![](images/scatternew.png)
+
 
 ## waffle plot
 ### creating a waffle plot  (code from scratch(waffle.py))
