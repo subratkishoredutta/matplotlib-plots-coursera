@@ -17,9 +17,9 @@ for i in range(1980,2014):
 data.set_index('Country',inplace=True)
 
 data_india=data.loc[['India'],range(1980,2014)].transpose()## transpose to bring to a format that is representable
-data_india.plot(kind="box")
+data_india.plot(kind="box",color="gold",vert=False)#vert=True by default which keeps the plot vertical by default
 plt.title("immigration from India to Canada from 1980 to 2013")
 plt.ylabel('number of immigrants')
-plt.savefig('box.png')
+plt.savefig('boxnew.png')
 plt.show()
 
