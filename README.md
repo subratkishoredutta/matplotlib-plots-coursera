@@ -26,7 +26,13 @@ upgraded one
 
 ## Box Plot(box.py)
 
+### vertical layout
+
 ![](images/box.png)
+
+### horizontal layout
+
+![](images/boxnew.png)
 
 ## scatter plot(scatter.py)
 
